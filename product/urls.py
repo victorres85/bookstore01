@@ -7,6 +7,7 @@ router = routers.SimpleRouter()
 router.register(r'product', viewset.ProductViewSet, basename='product')
 router.register(r'category', viewset.CategoryViewSet, basename='category')
 
+
 urlpatterns = [
     path('', include(router.urls)),
 ]

@@ -157,18 +157,5 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-CORS_ALLOWED_ORIGINS = [
-    'http://v-bookstore-api.herokuapp.com/',
-]
 
-CORS_ALLOW_METHODS = [
-    "GET",
-]
-
-CORS_ALLOW_HEADERS = [
-    "origin",
-]
-
-CORS_ALLOWED_ORIGINS = [
-    "http://read.only.com",
-]
+CORS_ALLOW_ALL_ORIGINS = True

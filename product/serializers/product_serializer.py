@@ -23,6 +23,7 @@ class ProductSerializer(serializers.ModelSerializer):
             "category",
             "img",
             "active",
+            "categories_id",
         ]
 
     def create(self, validated_data):

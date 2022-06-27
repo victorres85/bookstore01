@@ -11,10 +11,14 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 21 14:48:22 2022
+# Make data base, printed on Mon Jun 27 19:32:56 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+PROVIDE_FULLSTACK_ACTION = true
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -26,11 +30,13 @@ USERPROFILE = C:\Users\User
 # environment
 VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
+UUID = 12ab5e86-7f43-42bd-96bd-d2d21d9fc7c0
+# environment
 MSTR_DESK_REGISTRY_FILE = C:\PROGRA~1\MID822~1\Desktop\MSIREG~1.REG
 # environment
 LOCALAPPDATA = C:\Users\User\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c24043d0-a698-4468-9b97-195758e267b0-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3af0f3cd-5402-40aa-9f9b-d41bd5989aec-sock
 # makefile (from 'Makefile', line 4)
 LIBRARY_DIRS = mylibrary
 # makefile (from 'Makefile', line 20)
@@ -49,20 +55,24 @@ PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\Wi
 PYTEST_TAP_OPTIONS = --tap-combined --tap-outdir $(BUILD_DIR)
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+THREE_SCALE_USER_TOKEN = 207c527cfc2a6b8dcf4fa43ad7a976da
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_26756_VWJMGGOCZSETGOGQ
-# makefile (from 'Makefile', line 27)
-POETRY_OPTS = 
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9128_RXZWPDVTPDGAXBOA
 # makefile (from 'Makefile', line 29)
-RUN_PYPKG_BIN = $(POETRY) run
+RUN_PYPKG_BIN = $(PIP) 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# makefile (from 'Makefile', line 27)
+PIP_OPTS = 
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # environment
@@ -92,7 +102,9 @@ CURDIR := c:/Users/User/Documents/EBAC/Django/django/bookstore_copy/bookstore01
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+UTM_SOURCE = vscode
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -112,7 +124,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 26756
+VSCODE_PID = 9128
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -146,7 +158,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\sqlite3;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\MicroStrategy\Desktop\DataServices\180_222\64-bit\bin\server;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\.poetry\bin;C:\Users\User\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python311\;C:\New folder\Scripts\;C:\New folder\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\User\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jre1.8.0_321\bin\bin;C:\Users\User\AppData\Roaming\npm;C:\Program Files\PostgreSQL\9.2\bin;
+PATH = C:\sqlite3;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\MicroStrategy\Desktop\DataServices\180_222\64-bit\bin\server;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\.poetry\bin;C:\Users\User\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python311\;C:\New folder\Scripts\;C:\New folder\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\User\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jre1.8.0_321\bin\bin;C:\Users\User\AppData\Roaming\npm;C:\Program Files\PostgreSQL\9.2\bin;C:\Program Files\heroku\bin
 # environment
 COMPUTERNAME = DESKTOP-MD4NEA2
 # default
@@ -160,7 +172,7 @@ PYTEST_OPTIONS = $(PYTEST_HTML_OPTIONS) $(PYTEST_TAP_OPTIONS) $(PYTEST_COVERAGE_
 # environment
 PROMPT = $P$G
 # environment
-CHOCOLATEYLASTPATHUPDATE = 132828524316777000
+CHOCOLATEYLASTPATHUPDATE = 133002928172507525
 # makefile (from 'Makefile', line 17)
 PYTHON_VERSION_FILE = .python-version
 # environment
@@ -170,12 +182,13 @@ VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = User
 # environment
+RECOMMENDER_API_URL = https://gw.api.openshift.io//api/v2
+# environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
 ?F = $(notdir $?)
 # environment
-PROGRAMW6432 = C:\Program File 
-s
+PROGRAMW6432 = C:\Program Files
 # makefile (from 'Makefile', line 9)
 PYTEST_HTML_OPTIONS = --html=$(BUILD_DIR)/report.html --self-contained-html
 # environment
@@ -217,6 +230,8 @@ VS160PROCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Professi
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
+GOLANG_EXECUTABLE = go
+# environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # makefile (from 'Makefile', line 6)
 BUILD_DIR = build
@@ -243,11 +258,13 @@ SESSIONNAME = Console
 # environment
 VSCODE_CLI = 1
 # environment
+TELEMETRY_ID = 4dbc2d87-db68-4926-b820-33543e616792
+# environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # makefile (from 'Makefile', line 25)
-PIP = pip3
-# makefile (from 'Makefile', line 28)
-POETRY = poetry $(POETRY_OPTS)
+PIP = pip
+# environment
+DATABASE_URL = postgres://$(whoami)
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -255,7 +272,7 @@ PROCESSOR_REVISION = 4e03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=119/1024=12%, Rehash=0, Collisions=12/166=7%
+# Load=128/1024=12%, Rehash=0, Collisions=13/175=7%
 
 # Pattern-specific Variable Values
 
@@ -263,9 +280,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/User/Documents/EBAC/Django/django/bookstore_copy/bookstore01, mtime 1655819299): 14 files, no impossibilities.
+# . (key c:/Users/User/Documents/EBAC/Django/django/bookstore_copy/bookstore01, mtime 1656333234): 21 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -279,7 +296,7 @@ deps-py-update: pyproject.toml
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 64):
-	$(POETRY) update
+	$(PIP) update
 
 check: check-py
 #  Phony target (prerequisite of .PHONY).
@@ -293,7 +310,7 @@ seed:
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 130):
-	poetry run python manage.py seed
+	pip python manage.py seed
 
 format-isort:
 #  Phony target (prerequisite of .PHONY).
@@ -312,7 +329,7 @@ Brewfile:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-21 14:47:52
+#  Last modified 2022-06-22 15:54:33
 #  File has been updated.
 #  Successfully updated.
 
@@ -349,8 +366,8 @@ deps-py: .python-version
 		pip
 	$(PIP) install --upgrade \
                                      		--index-url $(PYPI_PROXY) \
-                                     		poetry
-	$(POETRY) install
+                                     		PIP
+	$(PIP) install
 
 check-py-mypy:
 #  Phony target (prerequisite of .PHONY).
@@ -412,7 +429,7 @@ publish:
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 60):
-	$(POETRY) publish $(POETRY_PUBLISH_OPTIONS_SET_BY_CI_ENV)
+	$(PIP) publish $(PIP_PUBLISH_OPTIONS_SET_BY_CI_ENV)
 
 help:
 #  Phony target (prerequisite of .PHONY).
@@ -420,8 +437,7 @@ help:
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 38):
-	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m\033[0m\n"} /^[a-zA-Z0-9_-]+:.*?##/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } '  
-$(MAKEFILE_LIST)
+	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m\033[0m\n"} /^[a-zA-Z0-9_-]+:.*?##/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
 
 build:
 #  Phony target (prerequisite of .PHONY).
@@ -429,7 +445,7 @@ build:
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 56):
-	$(POETRY) build
+	$(PIP) build
 
 migrate:
 #  Phony target (prerequisite of .PHONY).
@@ -470,7 +486,8 @@ deps: deps-brew deps-py
 #  recipe to execute (from 'Makefile', line 71):
 	pyenv local $(PYTHON_VERSION)
 
-.PHONY: help version-python test build publish deps-py-update deps deps-brew deps-py check check-py check-py-flake8 check-py-black check-py-mypy format-py format-autopep8 format-isort migrate seed
+.PHONY: help version-python test build publish deps-py-update deps deps-brew deps-py check check-py check-py-flake8 check-py-black check-py-mypy format-py format-autopep8 fo 
+rmat-isort migrate seed
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -489,12 +506,12 @@ pyproject.toml:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 41 / storage = 412 B / avg = 10 B
-# current buf: size = 8174 B / used = 412 B / count = 41 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 48 / storage = 492 B / avg = 10 B
+# current buf: size = 8174 B / used = 492 B / count = 48 / avg = 10 B
 
-# strcache performance: lookups = 130 / hit rate = 68%
+# strcache performance: lookups = 137 / hit rate = 64%
 # hash-table stats:
-# Load=41/8192=1%, Rehash=0, Collisions=0/130=0%
-# Finished Make data base on Tue Jun 21 14:48:22 2022
+# Load=48/8192=1%, Rehash=0, Collisions=0/137=0%
+# Finished Make data base on Mon Jun 27 19:32:56 2022
 
  

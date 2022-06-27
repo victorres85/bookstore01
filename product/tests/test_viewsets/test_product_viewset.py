@@ -19,7 +19,7 @@ class TestProductViewSet(APITestCase):
         token.save()
 
         self.product = ProductFactory(
-            title="pro controller",
+            wine_name="pro controller",
             price=200.00,
         )
 
@@ -34,7 +34,7 @@ class TestProductViewSet(APITestCase):
         product_data = json.loads(response.content)
 
         self.assertEqual(product_data["results"]
-                         [0]["title"], self.product.title)
+                         [0]["wine_name"], self.product.wine_name)
         self.assertEqual(product_data["results"]
                          [0]["price"], self.product.price)
         self.assertEqual(product_data["results"]
@@ -45,7 +45,7 @@ class TestProductViewSet(APITestCase):
         self.client.credentials(HTTP_AUTHORIZATION="Token " + token.key)
         category = CategoryFactory()
         data = json.dumps(
-            {"title": "notebook", "price": 800.00,
+            {"wine_name": "notebook", "price": 800.00,
                 "categories_id": [category.id]}
         )
 
@@ -57,7 +57,7 @@ class TestProductViewSet(APITestCase):
 
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
 
-        created_product = Product.objects.get(title="notebook")
+        created_product = Product.objects.get(wine_name="notebook")
 
-        self.assertEqual(created_product.title, "notebook")
+        self.assertEqual(created_product.wine_name, "notebook")
         self.assertEqual(created_product.price, 800.00)

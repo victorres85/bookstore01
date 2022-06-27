@@ -44,12 +44,14 @@ INSTALLED_APPS = [
     'product',
     'debug_toolbar',
     'rest_framework.authtoken',
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.common.CommonMiddleware",
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -154,3 +156,19 @@ REST_FRAMEWORK = {
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+CORS_ALLOWED_ORIGINS = [
+    'http://v-bookstore-api.herokuapp.com/',
+]
+
+CORS_ALLOW_METHODS = [
+    "GET",
+]
+
+CORS_ALLOW_HEADERS = [
+    "origin",
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://read.only.com",
+]

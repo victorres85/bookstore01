@@ -8,7 +8,7 @@ from product.models import Category
 
 
 class Product(models.Model):
-    vintage = models.PositiveIntegerField(null=True)
+    vintage = models.IntegerField(null=True)
     wine_producer = models.CharField(max_length=100, null=True)
     country = models.CharField(max_length=20, null=True)
     wine_name = models.CharField(max_length=100, null=True)

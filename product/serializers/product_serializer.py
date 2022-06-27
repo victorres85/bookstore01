@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from product.models.product import Category, Product
+from product.models.product import Product, Category
 from product.serializers.category_serializer import CategorySerializer
 
 
@@ -14,11 +14,15 @@ class ProductSerializer(serializers.ModelSerializer):
         model = Product
         fields = [
             "id",
-            "title",
+            "wine_producer",
+            "country",
+            "wine_name",
+            "grapes",
             "description",
             "price",
-            "active",
             "category",
+            "img",
+            "active",
             "categories_id",
         ]
 

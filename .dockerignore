@@ -4,3 +4,5 @@ env/
 db.sqlite3
 
 staticfiles
+
+red_wines.csv
